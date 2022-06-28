@@ -1,0 +1,127 @@
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 16px;
+}
+.header {
+    background-image: url(img/header-bg.svg);
+    padding-top: 57px;
+}
+.header a {
+    color: white;
+}
+.logo {
+    margin-right: 69px;
+}
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    Letter-spacing: 0.1em;
+}
+.menu li {
+    margin-right: 40px;
+}
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    Letter-spacing: 0.1em;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+    margin-bottom: 260px;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+ul, li {
+    display: block;
+    padding: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto
+}
+h3 {
+    Font-family: Anton;
+    Font-size: 30px;
+    Letter-spacing: 0.1em;
+    color: white
+}
+h1 {
+    Font-family: Anton;
+    Font-size: 100px;
+    Line-height: 1.5;
+    color: white;
+    margin-bottom: 30px;
+}
+.btn {
+    display: block;
+    text-decoration: none;
+    Font-size: 17px;
+    text-align: center;
+    Letter-spacing: 0.1em;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 18px 47px;
+    width: 238px;
+}
+.item {
+    padding-bottom: 180px;
+}
+h2 {
+    Font-size: 50px;
+    Font-family: Anton;
+    Font-style: Regular;
+    Line-height: 75px;
+    Line-height: 100%;
+    color: black;
+    margin-top: 113px;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+.name {
+    Font-family: Anton;
+    Font-style: Regular;
+    Font-size: 25px;
+    color: black;
+    margin-top: 58px;
+}
+.desc-left, .desc-right {
+    width: 564px;
+}
+.description p {
+    Font-family: Open Sans;
+    Font-style: Regular;
+    Font-size: 16px;
+    color: black;
+    padding-bottom: 19px;
+    text-align: justify;
+    line-height: 1.62em;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 114px;
+    }
+.footer-text {
+    Font-family: Open Sans;
+    Font-style: Regular;
+    Font-size: (mixed);
+    color: black;
+    margin-bottom: 80px;
+}
